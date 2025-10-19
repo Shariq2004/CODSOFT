@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+}
+.calculator{
+    border: 1px solid #717377;
+    padding: 20px;
+    border-radius: 1rem;
+    background: transparent;
+}
+.display{
+    margin: 10px;
+}
+input{
+    width: 355px;
+    border: none;
+    color: #fff;
+    outline: none;
+    padding: 24px;
+    font-size: 2.5rem;
+    text-align: right;
+    background: transparent;
+    box-shadow: 0 3px 15px rgba(84, 84, 84, 0.4);
+    cursor: pointer;
+}
+input::placeholder{
+    color: #fff;
+}
+button{
+    border: none;
+    outline: none;
+    width: 70px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 0.6rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+button:active{
+    transform: translate(2px,2px);
+}
+.btn-eq{
+    width: 160px;
+    color: #fff;
+    font-weight: 600;
+    background-color: rgba(255, 166, 0, 0.873);
+}
+.btn-op,.btn-fn{
+    color: orange;
+    font-weight: 600
+}
+.btn-num{
+    font-weight: 600
+}
+
+
+
+
+
+/* media Queries  */
+
+ @media (max-width:480px) {
+    .calculator{
+      padding: 10px;
+    }
+    input{
+      width: 305px;
+      padding: 25px;
+      font-size: 1.8rem;
+    }
+    button{
+        width: 65px;
+        height: 50px;
+        border-radius: 5px;
+        margin: 6px;
+        font-size: 1.3rem;
+    }
+    .btn-eq{
+      width: 145px;
+    }
+} 
+
+
+@media (max-width:360px) {
+    .calculator{
+      padding: 10px;
+    }
+    input{
+      width: 262px;
+      padding: 25px;
+      font-size: 1.8rem;
+    }
+    button{
+        width: 54px;
+        height: 40px;
+        border-radius: 5px;
+        margin: 6px;
+       font-size: 1.3rem;
+    }
+    .btn-eq{
+      width: 124px;
+    }
+}

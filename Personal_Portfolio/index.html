@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shariq-Personal-Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header class="header">
+        <a href="#home" class="logo">Shariq</a>
+
+        <i class="fa-solid fa-bars" id="menu-icon" onclick="toggleMenu()"></i>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- hero-section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <span class="greeting">Hello, I'm</span>
+            <h1 class="hero-title">Shariq</h1>
+            <h2 class="hero-subtitle">Full Stack Developer</h2>
+            <p class="hero-description description">
+               Transforming ideas into seamless, high-performing web applications with a focus on clean code and user experience.
+               I love turning creative concepts into interactive, user-friendly, and meaningful digital solutions.
+            </p>
+            <div class="cta-buttons">
+                <a href="#contact" class="btn ">Get In Touch<i class="fa-solid fa-envelope"></i></a>
+                <a href="#projects" class="btn">View My Work<i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- about section -->
+    <section class="about" id="about">
+        <div class="section-header">
+            <span class="section-title">About Me</span>
+        </div>
+        <div class="about-img">
+            <img src="Shariq-img.jpeg" alt="Shariq-img">
+        </div>
+        <div class="about-content">
+            <h3>Creative Developer & Problem Solver</h3>
+            <p class= " about-description description">
+              As a Full Stack Developer, I specialize in developing modern web applications using technologies like React, Node.js, Express, and MongoDB.
+              I enjoy working across the entire development lifecycle—from planning and UI design to API integration and deployment. I’m always eager to learn new tools and frameworks that help create better, faster, and more reliable applications.
+            </p>
+            <a href="#" class=" btn">Know More</a>
+        </div>
+    </section>
+
+
+    <!-- skill section  -->
+    <section class="skills" id="skills">
+        <div class="section-header">
+            <span class="section-title">Skills & Expertise</span>
+            <p class="section-description">A showcase of my technical expertise and proficiency across various technologies.</p>
+        </div>
+        <div class="skills-grid grid">
+
+           <!-- html & css card -->
+           <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3 class="skill-title">HTML & CSS</h3>
+                <p class="skill-sub-description">
+                    Building semantic, accessible, and responsive web structures with modern HTML5 and advanced CSS techniques including Flexbox, Grid, and animations.
+                </p>
+                <div class="sub-skills ">
+                    <span class="sub-skill ">Semantic HTML</span>
+                    <span class="sub-skill ">CSS Grid</span>
+                    <span class="sub-skill ">Animations</span>
+                    <span class="sub-skill ">SASS/SCSS</span>
+                </div>
+
+            </div> 
+
+
+             <!-- JavaScript Card -->
+             <div class="skill-card">
+                <div class="skill-icon">
+                   <i class="fa-solid fa-laptop-code"></i>
+                </div>
+                <h3 class="skill-title">JavaScript</h3>
+                <p class="skill-sub-description">
+                    Proficient in vanilla JS and modern frameworks, focusing on clean, efficient code for interactive user experiences and application logic.
+                </p>
+                <div class="sub-skills ">
+                    <span class="sub-skill ">ES6+</span>
+                    <span class="sub-skill">Async/Await</span>
+                    <span class="sub-skill ">DOM Manipulation</span>
+                    <span class="sub-skill ">APIs</span>
+                </div>
+            </div> 
+            
+            <!-- React Card -->
+            <div class="skill-card">
+                <div class="skill-icon">
+                   <i class="fab fa-react"></i>
+                </div>
+                <h3 class="skill-title">React.js</h3>
+                <p class="skill-sub-description">
+                    Creating dynamic, component-based UIs with React, including state management, hooks, and performance optimization for scalable applications.
+                </p>
+                <div class="sub-skills ">
+                    <span class="sub-skill ">Components</span>
+                    <span class="sub-skill ">Hooks</span>
+                    <span class="sub-skill ">Redux</span>
+                    <span class="sub-skill">Next.js</span>
+                </div>
+               
+            </div> 
+            
+            <!-- Node.js Card -->
+             <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fab fa-node-js"></i>
+                </div>
+                <h3 class="skill-title">Node.js</h3>
+                <p class="skill-sub-description">
+                    Developing robust server-side applications with Node.js, Express, and RESTful APIs, emphasizing security and scalability.
+                </p>
+                <div class="sub-skills">
+                    <span class="sub-skill">Express.js</span>
+                    <span class="sub-skill">REST APIs</span>
+                    <span class="sub-skill">NPM</span>
+                    <span class="sub-skill">Middleware</span>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+
+
+    
+    <!-- project section -->
+    <section class="projects" id="projects">
+         
+        <div class="section-header">
+            <span class="section-title">Featured Projects</span>
+            <p class="section-description">
+                Explore my most impactful projects that showcase technical expertise, creative problem-solving, and real-world applications.
+            </p>
+        </div>
+
+        <div class="projects-grid grid">
+
+            <!-- Project 1 -->
+            <div class="project-card">
+                <div class="project-thumbnail">
+                    <img src="project1-img.png" alt="Wheather App image">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Weather App</h3>
+                    <p class="project-description">
+                       A responsive weather application built with React.js that displays real-time weather updates for any city using the OpenWeather API. It shows temperature, humidity, wind speed, and dynamically changes the background based on current conditions.
+                    </p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">OpenWeatherMap API</span>
+                        <span class="tech-tag">React Hooks</span>
+                        <span class="tech-tag">React-Icons</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link"> 
+                            View Code
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="#" class="project-link">
+                            Live Demo
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+             <!-- Project 2 -->
+            <div class="project-card">
+                <div class="project-thumbnail">
+                    <img src="project2-img.png" alt="Simon says game image">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Simon Says Game</h3>
+                    <p class="project-description">
+                     An interactive memory game built with HTML, CSS, and JavaScript, where players repeat an increasingly complex sequence of colors. Each level tests focus and memory with smooth animations.
+                    </p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">HTML5</span>
+                        <span class="tech-tag">CSS3</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">DOM Manipulation</span>
+                        <span class="tech-tag">Event Handling</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link"> 
+                            View Code
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="#" class="project-link">
+                            Live Demo
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+             <!-- Project 3 -->
+            <div class="project-card">
+                <div class="project-thumbnail">
+                    <img src="project3-img.png" alt="Tic tac toe App image">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Tic Tac Toe Game</h3>
+                    <p class="project-description">
+                        A simple and interactive Tic Tac Toe game built using HTML, CSS, and JavaScript, where two players take turns marking X and O on a 3×3 grid. The game detects wins, draws, and allows quick restarts with a clean, responsive design.
+                    </p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Vanilla JavaScript</span>
+                        <span class="tech-tag">DOM Manipulation</span>
+                        <span class="tech-tag">Conditions</span>
+                        <span class="tech-tag">HTML5</span>
+                        <span class="tech-tag">CSS3</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link"> 
+                            View Code
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="#" class="project-link">
+                            Live Demo
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+     <!-- Call to action section -->
+    <section class="cta-section">
+        <div class="cta-content">
+            <h2>Have an idea or a project in mind?</h2>
+            <p>
+             Let’s collaborate and turn it into reality. I’m open to collaborations, freelance work, or full-time opportunities.
+             Drop me a message below — I’d love to connect!
+            </p>
+            <div class="social-icons">
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <a href="#contact" class="btn connect-btn">Let's Work Together <i class="fas fa-arrow-right"></i></a>
+        </div>
+    </section>
+ 
+
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+       <div class="section-header">
+            <span class="section-title">Get In Touch</span>
+            <p class="section-description">
+                Questions, ideas, or opportunities? Send me a message and I’ll get back to you as soon as possible.
+            </p>
+        </div>
+
+        <div class="form-container">
+            <div class="form-content">
+            <form action="#">
+                
+                <div class="input-box">
+                    <input type="text" name="Full Name" id="name" required>
+                    <label for="name">Your Name</label>
+                </div>
+                <div class="column">
+                <div class="input-box">
+                    <input type="text"  name="Email" id="email" required>
+                    <label for="email">Email Address</label>
+                </div>
+                
+                 <div class="input-box">
+                    <input type="text" name="Subject" id="subject" required>
+                    <label for="subject">Subject</label>
+                </div>
+                </div>
+
+                 <div class="input-box">
+                    <textarea type="text" rows="6"  name="Message" id="message" required></textarea>
+                    <label for="message">Message</label>
+                </div>
+
+                <button class="submit btn">SEND MESSAGE</button>
+            </form>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- footer section -->
+    <footer class="footer">
+        <div class="footer-container">
+          <p class="footer-text">&copy; 2025 <span class="footer-name">Shariq</span>. All Rights Reserved.</p>
+
+            <div class="footer-contact">
+              <a href="mailto:shariqahmad@gmail.com" class="footer-email">shariqahmad@gmail.com</a>
+              <span class="footer-separator">|</span>
+              <a href="tel:+919027420588" class="footer-phone">(+91) 4565675643</a>
+            </div>
+
+            <div class="footer-social">
+              <a href="#" class="footer-link">LinkedIn</a>
+              <span class="footer-separator">|</span>
+             <a href="#" class="footer-link">GitHub</a>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- SCRIPT -->
+    <script>
+      const menuIcon = document.querySelector('#menu-icon');
+      const navbar = document.querySelector('.navbar');
+      const AnchorTag = document.querySelector('#hero');
+      navbar.style.height = "0px";
+
+        function toggleMenu(){
+      
+         if(navbar.style.height == "0px"){
+            navbar.style.height = "300px";
+            menuIcon.className = "fa-solid fa-xmark"
+         }else{
+            navbar.style.height = "0px";
+            menuIcon.className = "fa-solid fa-bars"
+         }
+        };
+
+    </script>
+</body>
+</html>
